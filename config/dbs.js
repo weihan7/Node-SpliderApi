@@ -9,7 +9,7 @@ const MYSQL = require('mysql') // 调用MySQL模块
 const connection = MYSQL.createConnection({
   host: '127.0.0.1', // 主机
   user: 'root', // MySQL认证用户名
-  password: '',
+  password: '1234',
   port: '3306',
   database: 'blog_cms',
   charset: 'UTF8_GENERAL_CI'
